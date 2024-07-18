@@ -1,7 +1,12 @@
-
 .boxes{
-    height: 150px;
-    background-color: #f0afe6;
+    /* height: 150px;
+    background-color: blueviolet;
     margin: 5px;
-    padding: 2px;
+    padding: 2px; */
+}
+.boxcontent{
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    background-color: rgb(235, 241, 56);
+    height:150px;
 }
