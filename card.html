@@ -32,30 +32,49 @@
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="list-unstyled components">
-                            <li>
-                                <a href="" data-bs-toggle="collapse" data-bs-target="#demo1" style="text-decoration: none;">Home</a>
-                                <div id="demo1"> I Am Home Button</div>
-                            </li>
-                            <li>
-                                <a href=""data-bs-toggle="collapse" data-bs-target="#demo2" style="text-decoration: none;">Customer</a>
-                                <div id="demo2"> I Am User button</div>
-                            </li>
-                            <li>
-                                <a href=""data-bs-toggle="collapse" data-bs-target="#demo3" style="text-decoration: none;">Products</a>
-                                <div id="demo3"> I Am Products Button</div>
-                            </li>
-                            <li>
-                                <a href=""data-bs-toggle="collapse" data-bs-target="#demo4" style="text-decoration: none;">Order</a>
-                                <div id="demo4"> I Am Order Burron</div>
-                            </li>
-                            <li>
-                                <a href=""data-bs-toggle="collapse" data-bs-target="#demo5" style="text-decoration: none;">Reports</a>
-                                <div id="demo5"> I Am Report Button</div>
+                        <div id="accordion">
 
-                            </li>
-
-                           
+                            <div class="card1">
+                              <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                  Home
+                                </a>
+                              </div>
+                              <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                  welcome to home page
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card2">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                  User
+                                </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                  User profile
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card3">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                  Order
+                                </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                  Your order details
+                                </div>
+                              </div>
+                            </div>
+                          
+                          </div>
+                          
 
                             <button class="btn btn-danger" type="button">LOG OUT</button>
                     </div>
