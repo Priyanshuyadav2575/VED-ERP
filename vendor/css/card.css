@@ -4,11 +4,22 @@
     
 }
 .card{
-    height: 300px;
+    height: 400px;
     
 }
 .logo{
     height:150px ;
     
     
+}
+ .offcanvas-body{
+    background-color:aqua;
+    
+ }
+ .offcanvas-header{
+    background-color:aqua;
+ }
+.col-12{
+    
+
 }
